@@ -1,10 +1,12 @@
 import React from "react";
+import "./services.css";
 import { Container, Row } from "react-bootstrap";
+import HomeService from "../HomeService/HomeService";
 import useServices from "../../hooks/useService";
-import Service from "../Service/Service";
 
-const Services = () => {
+const HomeServices = () => {
   const [services] = useServices(); //Service Custom Hooks
+
   return (
     <div className="service-area">
       <Container>
@@ -14,8 +16,8 @@ const Services = () => {
           </h2>
         </div>
         <Row>
-          {services.map((service) => (
-            <Service key={service.id} service={service}></Service>
+          {services.splice(0, 4).map((service) => (
+            <HomeService key={service.id} service={service}></HomeService>
           ))}
         </Row>
       </Container>
@@ -23,4 +25,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default HomeServices;

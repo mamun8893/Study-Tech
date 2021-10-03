@@ -3,6 +3,10 @@
   background-color: #ffffff;
   position: relative;
 }
+
+.our-service-item {
+  margin-bottom: 20px;
+}
 .service-item:hover img {
   transform: scale(1.1);
 }

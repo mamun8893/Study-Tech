@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# StudyTech
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project Demo Link [Live Url](https://assignment-project-management-system.netlify.app/).
+
+#### Project Featured:
+
+- Load Data from json file and show all Service in UI
+- Use Custom Hooks
+- Use Router
 
 ## Available Scripts
 

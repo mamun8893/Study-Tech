@@ -6,9 +6,10 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
+    // Header Area Start
     <Navbar>
       <Container>
-        <Navbar.Brand href="#home" className="logo">
+        <Navbar.Brand href="#" className="logo">
           <img src={logo} alt="" />
           <h1>StudyTech</h1>
         </Navbar.Brand>
@@ -28,6 +29,7 @@ const Header = () => {
         </Nav>
       </Container>
     </Navbar>
+    // Header Area End
   );
 };
 

@@ -1,11 +1,12 @@
 import React from "react";
+import "./service.css";
 import { Col } from "react-bootstrap";
 
-const Service = (props) => {
+const HomeService = (props) => {
   const { title, image, price, description } = props.service;
   return (
     <Col md={3}>
-      <div className="service-item our-service-item">
+      <div className="service-item">
         <div className="image">
           <img src={image} alt="" />
         </div>
@@ -21,4 +22,4 @@ const Service = (props) => {
   );
 };
 
-export default Service;
+export default HomeService;
