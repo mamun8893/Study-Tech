@@ -1,6 +1,6 @@
 # StudyTech
 
-Project Demo Link [Live Url](https://assignment-project-management-system.netlify.app/).
+Project Demo Link [Live Url](https://studytech-assignment9.netlify.app/).
 
 #### Project Featured:
 
