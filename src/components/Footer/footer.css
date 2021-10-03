@@ -1,0 +1,11 @@
+.footer-area {
+  background: rgb(43, 45, 59);
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-area p {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 0px;
+}

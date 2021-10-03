@@ -1,0 +1,25 @@
+.logo {
+  width: 100px;
+  height: 80px;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.navbar-brand h1 {
+  font-size: 32px;
+  color: #404040;
+}
+.navbar-nav .nav-link {
+  color: #404040 !important;
+  font-size: 18px;
+  padding: 0px 20px !important;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+.navbar-nav .nav-link:hover {
+  color: #ffca0b !important;
+}
+.navbar-nav .nav-link:last-child {
+  padding-right: 0px !important;
+}
