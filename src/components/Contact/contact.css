@@ -1,0 +1,14 @@
+.breadcumb-banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 80px 0px;
+}
+.banner-breadcumb-content h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.conatct-form-warper {
+  padding: 80px 0px;
+}

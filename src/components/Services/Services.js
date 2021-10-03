@@ -6,7 +6,6 @@ import Service from "../Service/Service";
 
 const Services = () => {
   const [services] = useServices();
-  const servicesFourItem = services.slice(0, 4);
   return (
     <div className="service-area">
       <Container>
@@ -16,7 +15,11 @@ const Services = () => {
           </h2>
         </div>
         <Row>
-          {servicesFourItem.map((service) => (
+          {services.slice(0, 4).map((service) => (
+            <Service key={service.id} service={service}></Service>
+          ))}
+
+          {services.map((service) => (
             <Service key={service.id} service={service}></Service>
           ))}
         </Row>
