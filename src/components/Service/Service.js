@@ -1,4 +1,5 @@
 import React from "react";
+import "./service.css";
 import { Col } from "react-bootstrap";
 
 const Service = (props) => {

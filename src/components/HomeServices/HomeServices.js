@@ -1,8 +1,8 @@
 import React from "react";
 import "./services.css";
 import { Container, Row } from "react-bootstrap";
-import HomeService from "../HomeService/HomeService";
 import useServices from "../../hooks/useService";
+import Service from "../Service/Service";
 
 const HomeServices = () => {
   const [services] = useServices(); //Service Custom Hooks
@@ -16,8 +16,8 @@ const HomeServices = () => {
           </h2>
         </div>
         <Row>
-          {services.splice(0, 4).map((service) => (
-            <HomeService key={service.id} service={service}></HomeService>
+          {services.slice(0, 4).map((service) => (
+            <Service key={service.id} service={service}></Service>
           ))}
         </Row>
       </Container>
