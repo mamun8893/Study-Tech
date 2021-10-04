@@ -14,16 +14,24 @@ const Header = () => {
           <h1>StudyTech</h1>
         </Navbar.Brand>
         <Nav className="ml-auto navbar-nav">
-          <NavLink to="/home" className="nav-link">
+          <NavLink to="/home" className="nav-link" activeClassName="selected">
             Home
           </NavLink>
-          <NavLink to="/services" className="nav-link">
+          <NavLink
+            to="/services"
+            className="nav-link"
+            activeClassName="selected"
+          >
             Services
           </NavLink>
-          <NavLink to="/about" className="nav-link">
+          <NavLink to="/about" className="nav-link" activeClassName="selected">
             About
           </NavLink>
-          <NavLink to="/contact" className="nav-link">
+          <NavLink
+            to="/contact"
+            className="nav-link"
+            activeClassName="selected"
+          >
             Contact
           </NavLink>
         </Nav>

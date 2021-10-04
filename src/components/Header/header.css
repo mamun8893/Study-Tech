@@ -23,3 +23,6 @@
 .navbar-nav .nav-link:last-child {
   padding-right: 0px !important;
 }
+.navbar-nav .selected {
+  color: #ffca0b !important;
+}
